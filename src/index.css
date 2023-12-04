@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Table {
+  width: 90vw;
+}
+
+.TableCont table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+thead tr {
+  background-color: gray;
+}
+
+tr {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+td {
+  margin: 5px 0px;
+}
+
+.MainPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  text-align: center;
+}
+
+
